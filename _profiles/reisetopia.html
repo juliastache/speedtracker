@@ -3,7 +3,7 @@
 # The human-friendly name of the profile. Whenever you're asked for the profile
 # ID, it refers to the name of the profile file — in this case, "default".
 #
-name: "My website"
+name: "Reisetopia Mobile"
 
 #
 # The default profile will be the one shown when accessing the root URL of your
@@ -49,11 +49,42 @@ parameters:
 #
 #budgets:
 #  -
-#    metric: TTFB
-#    max: 600
-#    alerts: ["emailAlert", "slackAlert"]
+    metric: TTFB
+    max: 0
+    alerts: ["emailAlert", "slackAlert"]
 #  -
-#    metric: firstPaint
-#    max: 2000
-#    alerts: ["slackAlert"]
+    metric: firstPaint
+    max: 0
+    alerts: ["emailAlert","slackAlert"]
+#  -
+   metric: fullyLoaded
+   max: 0
+   alerts: ["emailAlert","slackAlert"]
+#  -
+   metric: loadTime
+   max: 0
+   alerts: ["emailAlert","slackAlert"]
+#  -
+   metric: SpeedIndex
+   max: 0
+   alerts: ["emailAlert","slackAlert"]
+
+#  -
+   metric: visualComplete
+   max: 0
+   alerts: ["emailAlert","slackAlert"]
+#  -
+   metric: render
+   max: 0
+   alerts: ["emailAlert","slackAlert"]
+
+#  -
+   metric: domInteractive
+   max: 0
+   alerts: ["emailAlert","slackAlert"]
+#  -
+   metric: domElements
+   max: 0
+   alerts: ["emailAlert","slackAlert"]
+  
 ---
