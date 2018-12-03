@@ -75,7 +75,7 @@ wptKey: "160a015cf9d5c93fd9930950ce367415283c52aea09c68932bd8f26734c6f9cc5d24"
 #    recipients: ["ENCRYPTED_EMAIL_ADDRESS2", "ENCRYPTED_EMAIL_ADDRESS3"]
 #  slackAlert:
 #    type: "slack"
-#    hookUrl: "25415d4aae90c27c83c113429b65711a373e5ef5"
-#    channel: "#speedtracker"
+#    hookUrl: "1c63425280809d7d88e75a708e7348272e0545cec09d14e7"
+#    channel: "#tech"
 #    username: "SpeedTracker"
 #    iconEmoji: ":grimacing:"
