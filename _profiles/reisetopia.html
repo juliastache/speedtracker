@@ -49,14 +49,17 @@ parameters:
 #
 budgets:
 #  -
-    metric: TTFB
-    max: 0
-    alerts: ["emailAlert", "slackAlert"]
+  metric: TTFB
+  max: 0
+  alerts: ["emailAlert", "slackAlert"]
 #  -
-
-    metric: fullyLoaded
-    max: 0
-    alerts: ["emailAlert""]
+  metric: firstPaint
+  max: 0
+  alerts: ["emailAlert","slackAlert"]
+#  -
+  metric: fullyLoaded
+  max: 0
+  alerts: ["emailAlert""]
 #  -
     metric: loadTime
     max: 0
