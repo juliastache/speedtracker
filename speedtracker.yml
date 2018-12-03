@@ -37,7 +37,7 @@
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-encryptionKey: "YOUR_ENCRYPTED_KEY"
+encryptionKey: "83981aca1e65acc0741ca58224"
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -50,7 +50,7 @@ encryptionKey: "YOUR_ENCRYPTED_KEY"
 #                                                                             #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-wptKey: "YOUR_ENCRYPTED_WEBPAGETEST_KEY"
+wptKey: "ceea940cac954bee44781b4a4257fe086f1d95d6367b3295e46d577ef82cf5df530e"
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -69,7 +69,7 @@ wptKey: "YOUR_ENCRYPTED_WEBPAGETEST_KEY"
 #alerts:
 #  emailAlert:
 #    type: "email"
-#    recipients: ["ENCRYPTED_EMAIL_ADDRESS"]
+#    recipients: ["daac5dbbc88f6579d19d7588158752c7b22fd1"]
 #  otherEmailAlert:
 #    type: "email"
 #    recipients: ["ENCRYPTED_EMAIL_ADDRESS2", "ENCRYPTED_EMAIL_ADDRESS3"]
